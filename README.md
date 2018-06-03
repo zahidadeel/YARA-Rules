@@ -1,2 +1,2 @@
 # yaraRules
-Yara rules respository containing rules for exploits, malwares and cryptominers
+Yara rules respository containing rules for exploits, malwares and crypto miners
