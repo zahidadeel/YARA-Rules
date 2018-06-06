@@ -4,12 +4,11 @@ private rule isTAR
 {
 	meta:
 		Author = "Zahid Adeel (zahidadeelhashmat@gmail.com)"
-		Description = "Identify PDF document"
+		Description = "Identify TAR archive"
 		Version = "0.1"
 		
 	strings:
 		$magic = { 75 73 74 61 72 (00 30 30|20 20 00) }
-		// $magic2 = { 75 73 74 61 72 20 20 00}
 
 	condition:
 		
@@ -20,7 +19,7 @@ private rule isZIP
 {
 	meta:
 		Author = "Zahid Adeel (zahidadeelhashmat@gmail.com)"
-		Description = "Identify PDF document"
+		Description = "Identify ZIP archive"
 		Version = "0.1"
 		
 	strings:
